@@ -1,5 +1,5 @@
 body {
-    background-color: #1b1b1b;
+    background-color: rgba(0, 70, 128, 0.65);
     margin-left: 5%;
     margin-right: 5%;
     padding: 0%;
@@ -9,7 +9,7 @@ body {
 
 header {
     text-align: center;
-    background-color: rgba(128, 0, 128, 0.65);
+    background-color: rgba(0, 70, 128, 1);
     padding: 2%;
 }
 
@@ -18,7 +18,11 @@ h1 {
 } 
 
 h2 {
+    color: rgb(206, 99, 0);
+}
 
+h3 {
+    color: rgb(206, 99, 0);
 }
 
 p {
@@ -26,24 +30,41 @@ p {
 }
 
 a {
-    color: purple;
+    color: rgb(206, 99, 0);
+}
+
+a:hover {
+    color: rgb(255, 123, 0);
 }
 
 .btn {
     background-color: #1b1b1b;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     border-radius: 4px;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(206, 99, 0);
+    color: white;
 }
 
 footer {
     background-color: black;
-    color: purple;
+    color: rgb(206, 99, 0);
     padding: 3em 0 2em 0;
     background: #1b1b1b;
+}
+
+#waffle {
+    transform: rotate(90deg);
 }
