@@ -71,10 +71,9 @@ a:hover {
 }
 
 footer {
-    background-color: black;
+    background-color: #152B3A;
     color: white;
-    padding: 3em 2em 2em 2em;
-    background: #1b1b1b;
+    padding: 1em 1em 1em 2em;
 }
 
 #waffle {
