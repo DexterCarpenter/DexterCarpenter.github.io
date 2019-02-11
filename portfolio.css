@@ -1,0 +1,82 @@
+/*
+* blue1 = #152B3A
+* blue2 = #003155
+* blue3 = #456983
+* blue4 = #A2B4C1
+* white = #E7ECEF
+*
+* btn:hover = #004577
+* a:hover = #477699
+*/
+
+body {
+    background-color: #E7ECEF;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0%;
+    font-family: sans-serif;
+    color: black;
+}
+
+header {
+    text-align: center;
+    background-color: #152B3A;
+    padding: 2%;
+    color: white;
+}
+
+h1 {
+    font-size: 35pt;
+} 
+
+h2 {
+    color: #003155;
+}
+
+h3 {
+    color: #456983;
+}
+
+p {
+
+}
+
+a {
+    color: #456983;
+}
+
+a:hover {
+    color: #477699;
+}
+
+.btn {
+    background-color: #003155;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #004577;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 3em 2em 2em 2em;
+    background: #1b1b1b;
+}
+
+#waffle {
+    transform: rotate(90deg);
+}
