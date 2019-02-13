@@ -1,4 +1,7 @@
-
+/*
+From:
+https://codepen.io/MarcMalignan/pen/xByvJ
+*/
 
 var moveForce = 30; // max popup movement in pixels
 var rotateForce = 20; // max popup rotation in deg
