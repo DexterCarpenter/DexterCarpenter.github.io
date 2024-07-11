@@ -1,5 +1,5 @@
 layout: page
 title: "Main"
-permalink: /main
+permalink: /main/
 
 Hello World
