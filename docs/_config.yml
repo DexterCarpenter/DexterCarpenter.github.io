@@ -35,6 +35,7 @@ linkedin_username: DexterCarpenter
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from # for redirecting on my resume page
 
 # Exclude from processing.
 # The following items will not be processed, by default.
