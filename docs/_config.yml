@@ -28,8 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dextercarpenter.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  DexterCarpenter
-linkedin: dexter-carpenter-5b3abb1aa
-linkedin_username: DexterCarpenter
+linkedin_username: DexterCarpenter1
 
 # Build settings
 theme: minima
