@@ -5,13 +5,18 @@ permalink: /portfolio
 published: true
 ---
 
-### 
+## Table of Contents
+[OPEnS Lab FloDar Project Lead](#opens-lab-flodar-project-lead)<br>
+[FIRST Robotics Team Experience](#first-robotics-team-experience)<br>
+[RingGame](#ringgame)<br>
 
+<hr>
 ### OPEnS Lab FloDar Project Lead
 *Jan 2021 - Oct 2022*
 
 ...
 
+<hr>
 ### FIRST Robotics Team Experience
 *2016 - 2019*
 # Freshman Year: Joining the Team
@@ -34,6 +39,7 @@ Throughout my journey with the FIRST robotics team, I developed a strong foundat
 
 ![Scorpion](/assets/scorpion.webp "Scorpion")
 
+<hr>
 ### [RingGame](https://github.com/DexterCarpenter/RingGame)
 *2020*
 
@@ -43,4 +49,4 @@ This was a one-day project. Using a Adafruit Neopixel ring (24), an Arduinio Uno
 
 My goal was to make this as simple as possible, using just the NeoPixel and a button as the UI.
 
-![GIF](https://github.com/DexterCarpenter/RingGame/blob/master/Documentation/RingGame.gif)
+![RingGame](/assets/RingGame.gif "RingGame")
