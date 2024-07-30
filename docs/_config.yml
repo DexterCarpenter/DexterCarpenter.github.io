@@ -21,6 +21,7 @@
 title: Dexter Carpenter
 email: dextercarpenter1@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
+    This site is still a work-in-progress and may have issues or missing content.
     Thanks for visiting!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dextercarpenter.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
