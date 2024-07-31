@@ -6,12 +6,12 @@ published: true
 ---
 
 ## Table of Contents
-- [Capstone Project](#capstone-project)<br>
-- [BEAVS Simulation](#beavs-simulation)<br>
-- [ESRA Final Technical Report]()
-- [OPEnS Lab FloDar Project Lead](#opens-lab-flodar-project-lead)<br>
-- [FIRST Robotics Team Experience](#first-robotics-team-experience)<br>
-- [RingGame](#ringgame)<br>
+- [Capstone Project](#capstone-project)
+- [BEAVS Simulation](#beavs-simulation)
+- [ESRA Final Technical Report](#esra-final-technical-report)
+- [OPEnS Lab FloDar Project Lead](#opens-lab-flodar-project-lead)
+- [FIRST Robotics Team Experience](#first-robotics-team-experience)
+- [RingGame](#ringgame)
 
 <br>
 
