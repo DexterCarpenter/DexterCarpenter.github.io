@@ -9,7 +9,7 @@ published: true
 
 Hello!
 
-I am a recent graduate from Oregon State University with a degree in Mechanical Engineering. My passion for engineering began in high school with my [FIRST Robotics Experience](portfolio/#first-robotics-team-experience), where I was an active member and eventually the team captain. This early exposure to hands-on problem-solving and teamwork laid the foundation for my academic and professional journey. At Oregon State, I further honed my skills and knowledge, culminating in leading a rocketry team for my [Capstone Project](portfolio/#capstone-project). I invite you to explore the rest of my [Portfolio](/portfolio), where you can see all the diverse projects I've worked on and learn more about my experience and expertise.
+I am a recent graduate from Oregon State University with a degree in Mechanical Engineering. My passion for engineering began in high school with my [FIRST Robotics Experience](/portfolio#first-robotics-team-experience), where I was an active member and eventually the team captain. This early exposure to hands-on problem-solving and teamwork laid the foundation for my academic and professional journey. At Oregon State, I further honed my skills and knowledge, culminating in leading a rocketry team for my [Capstone Project](/portfolio#capstone-project). I invite you to explore the rest of my [Portfolio](/portfolio), where you can see all the diverse projects I've worked on and learn more about my experience and expertise.
 
 Thank you for visiting!
 
