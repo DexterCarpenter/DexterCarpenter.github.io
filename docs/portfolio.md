@@ -59,7 +59,7 @@ panel and other competition officials" and therefore provides a fully comprehens
 Our team's Technical Report placed **29th** out of 121 teams, scoring **183.7** of the **200** possible points. This is verifiable with the Final Scores on [soundingrocket.org](https://www.soundingrocket.org/2024-sa-cup.html).
 
 <p align="center"><embed src="/assets/pdfs/Team_68_Project_Technical_Report_to_the_2024_Spaceport_America_Cup.pdf"
-	width="600" height="600" type="application/pdf"></p>
+	width="80%" height="600" type="application/pdf"></p>
 
 <hr>
 ### [OPEnS Lab *FloDar* Project Lead](https://github.com/OPEnSLab-OSU/OPEnS-Lab-Home/wiki/FloDar)
@@ -84,14 +84,18 @@ Through my work at OPEnS Lab, I gained valuable experience in project management
 ### FIRST Robotics Team Experience
 *2016 - 2019*
 
+In high school, I became chronically involved with the [FIRST® Robotics Competition](https://www.firstinspires.org/robotics/frc) (FRC) team. Each year FRC teams design, program, and build a robot from scratch and common set of rules to play in a themed head-to-head challenge. This was the beginning of my career in engineering and has taught me more about engineering and leadership than anything else. I still am friends with many of my teamates to this day. A few things that set our team aside from many others are being student lead, meaning the students were in charge of making the decisions and our mentors were a hands-off resource. We also had significantly less team members and funding, which provided an additional barrier to our success.
+
+For the rest of this section, I'll talk through what I did each year, sharing my story. I'll then end with a more technical description of our 2019 robot *Scorpion*.
+
 **Freshman Year: Joining the Team**<br>
-I joined our [FIRST robotics team](https://www.pigmice.com/) as a freshman, eager to immerse myself in the world of engineering and robotics. This initial year provided a foundation in teamwork, basic mechanical concepts, and the excitement of competitive robotics.
+I joined [our FRC team](https://www.pigmice.com/) as a freshman, eager to immerse myself in the world of engineering and robotics. This initial year provided a foundation in teamwork, basic mechanical concepts, and the excitement of competitive robotics. Our robot did adequately this year, but our team had a very laid-back approach to the competition.
 
 **Sophomore Year: Build Lead**<br>
-In my sophomore year, I was appointed as the Build Lead. Under the mentorship of the Manufacturing Captain, I gained invaluable experience in leadership and hands-on engineering. Our department was responsible for transforming designs from the Design Department into functional components for our robot. We began prototyping with wood and cardboard, allowing for quick iterations and testing. Once designs were finalized, we manufactured the parts using aluminum, ensuring durability and precision.
+In my sophomore year, I was appointed as the Build Lead. Under the mentorship of the Manufacturing Captain, I got my first glimpse into leadership and hands-on engineering. Our department was responsible for transforming designs from the Design Department into functional components for our robot. We began prototyping with wood and cardboard, allowing for quick iterations and testing. Once designs were more developed, we manufactured the final parts using aluminum. My primary contribution to the team was the 'Shooter.' This was a flywheel mechanism that launched wiffle balls roughly 15ft into the air to score them. Our team performed very poorly this year. At each of our competitions, we struggled to field a functional robot.
 
 **Junior Year: Co-Leading as Manufacturing Captain**<br>
-My junior year marked a significant step forward as I was elected to co-lead as the Manufacturing Captain. This role intensified my responsibilities and honed my skills in organization, communication, and managing a team under stressful environments. Our hard work and improved processes paid off, as we advanced to the District Championships for the first time in many years. This achievement was a testament to our improved design, iteration, and testing methods.
+My junior year marked a significant step forward as I was elected to co-lead as the Manufacturing Captain. This role intensified my responsibilities and honed my skills in organization, communication, and managing a team under stressful environments. The challenge this year required a milk crate-sized cube to be placed on a scale +8ft into the air. Our team decided on using an 'elevator' mechanism, but were split on two different methods. We decided to work on both solutions in parallel. This ended up being a valueable lesson in both team dynamics and engineering. Our hard work and improved processes paid off, as we advanced to the District Championships for the first time in many years. This achievement was a testament to our improved design, iteration, and testing methods. The new set of leadership, including myself, had taken a vastly different approach to the team and after tasting success, were eager to do even better next year.
 
 ![Otis](/assets/Otis.jpg "Otis")
 
@@ -100,9 +104,12 @@ In my senior year, I was honored to be elected as the Team Captain, co-leading t
 
 ![Celebrating](/assets/PigmiceHouston.JPG "Celebrating getting to finals")
 
-Throughout my journey with the FIRST robotics team, I developed a strong foundation in engineering principles, leadership, and teamwork. These experiences have significantly shaped my approach to problem-solving and project management, skills that I continue to apply in my ongoing engineering endeavors.
+Throughout my journey with the FRC team, I developed a strong foundation in engineering principles, leadership, and teamwork. These experiences have significantly shaped my approach to problem-solving and project management, skills that I continue to apply in my ongoing engineering endeavors.
 
+**2019 Robot: Scorpion**<br>
 ![Scorpion](/assets/scorpion.webp "Scorpion")
+
+I want to talk about this robot in more detail as I am exceptionally proud of it and there's a lot of interesting systems under the hood.
 
 <hr>
 ### [RingGame](https://github.com/DexterCarpenter/RingGame)
@@ -110,8 +117,54 @@ Throughout my journey with the FIRST robotics team, I developed a strong foundat
 
 An Arduino-based arcade style game. Press the button when the lights line up to proceed to a faster level. 
 
-This was a one-day project. Using a Adafruit Neopixel ring (24), an Arduinio Uno, and a button I created a game where the objective is to press the button when the "runner" and the "selector" are aligned. If you are successful, you get a green flash and the runner gets faster. This proceeds until you miss, in which an animation plays and restarts the runner's speed.
+This was a one-day project. Using an [Adafruit Neopixel ring (24)](https://www.adafruit.com/product/1586), an [Arduinio Uno](https://store.arduino.cc/products/arduino-uno-rev3), and a button I created a game where the objective is to press the button when the "runner" and the "selector" are aligned. If you are successful, you get a green flash and the runner gets faster. This proceeds until you miss, in which an animation plays and restarts the runner's speed.
 
 My goal was to make this as simple as possible, using just the NeoPixel and a button as the UI.
 
 <p align="center"><img src="/assets/RingGame.gif" alt="RingGame"></p>
+
+<!-- Attempts at making a sidebar:
+
+<head>
+	<style>
+		.sidenav {
+		  width: 12%;
+		  min-width: 200px;
+		  position: fixed;
+		  z-index: 1;
+		  top: 10%;
+		  right: 90%;
+		  background: #eee;
+		  overflow-x: hidden;
+		  padding: 8px 0;
+		}
+
+		.sidenav a {
+		  padding: 6px 8px 6px 16px;
+		  text-decoration: none;
+		  font-size: 16px;
+		  color: #2196F3;
+		  display: block;
+		}
+
+		.sidenav a:hover {
+		  color: #064579;
+		}
+
+		@media screen and (max-height: 450px) {
+		  .sidenav {padding-top: 15px;}
+		  .sidenav a {font-size: 18px;}
+		}
+	</style>
+</head>
+
+<div class="sidenav">
+  <a href="#capstone-project"              >Capstone Project</a>
+  <a href="#beavs-simulation"              >BEAVS Simulation</a>
+  <a href="#esra-project-technical-report" >ESRA Project Technical Report</a>
+  <a href="#opens-lab-flodar-project-lead" >OPEnS Lab FloDar Project Lead</a>
+  <a href="#first-robotics-team-experience">FIRST Robotics Team Experience</a>
+  <a href="#ringgame"                      >RingGame</a>
+</div>
+
+-->
