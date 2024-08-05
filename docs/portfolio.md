@@ -5,49 +5,6 @@ permalink: /portfolio
 published: true
 ---
 
-<head>
-	<style>
-		.sidenav {
-		  width: 200px;
-		  position: fixed;
-		  z-index: 1;
-		  top: 80px;
-		  float: left;
-		  left: calc((100% - 740px)/2 - 220px);
-		  background: #eee;
-		  overflow-x: hidden;
-		  padding: 8px 0;
-		}
-
-		.sidenav a {
-		  padding: 6px 8px 6px 16px;
-		  text-decoration: none;
-		  font-size: 16px;
-		  color: #2196F3;
-		  display: block;
-		}
-		
-		.sidenav p {
-		  padding: 6px 8px 6px 16px;
-		  margin-bottom: 0px;
-		  font-weight: bold;
-		}
-
-		.sidenav a:hover {
-		  color: #064579;
-		}
-
-		@media screen and (max-height: 450px) {
-		  .sidenav {padding-top: 15px;}
-		  .sidenav a {font-size: 18px;}
-		}
-		
-		@media screen and (max-width: 1230px) {
-			.sidenav {display: none;}
-		}
-	</style>
-</head>
-
 <div class="sidenav">
 	<p>Contents</p>
 	<a href="#capstone-project"              >Capstone Project</a>
