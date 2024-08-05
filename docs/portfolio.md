@@ -5,6 +5,61 @@ permalink: /portfolio
 published: true
 ---
 
+<head>
+	<style>
+		.sidenav {
+		  width: 200px;
+		  position: fixed;
+		  z-index: 1;
+		  top: 80px;
+		  float: left;
+		  left: calc((100% - 740px)/2 - 220px);
+		  background: #eee;
+		  overflow-x: hidden;
+		  padding: 8px 0;
+		}
+
+		.sidenav a {
+		  padding: 6px 8px 6px 16px;
+		  text-decoration: none;
+		  font-size: 16px;
+		  color: #2196F3;
+		  display: block;
+		}
+		
+		.sidenav p {
+		  padding: 6px 8px 6px 16px;
+		  margin-bottom: 0px;
+		  font-weight: bold;
+		}
+
+		.sidenav a:hover {
+		  color: #064579;
+		}
+
+		@media screen and (max-height: 450px) {
+		  .sidenav {padding-top: 15px;}
+		  .sidenav a {font-size: 18px;}
+		}
+		
+		@media screen and (max-width: 1230px) {
+			.sidenav {display: none;}
+		}
+	</style>
+</head>
+
+<div class="sidenav">
+	<p>Contents</p>
+	<a href="#capstone-project"              >Capstone Project</a>
+	<a href="#beavs-simulation"              >BEAVS Simulation</a>
+	<a href="#esra-project-technical-report" >ESRA Project Technical Report</a>
+	<a href="#opens-lab-flodar-project-lead" >OPEnS Lab FloDar Project Lead</a>
+	<a href="#first-robotics-team-experience">FIRST Robotics Team Experience</a>
+	<a href="#ringgame"                      >RingGame</a>
+</div>
+
+<!-- old TOC
+
 ## Table of Contents
 - [Capstone Project](#capstone-project)
 - [BEAVS Simulation](#beavs-simulation)
@@ -14,6 +69,7 @@ published: true
 - [RingGame](#ringgame)
 
 <br>
+-->
 
 <!-- PROJECTS BEGIN HERE -->
 
@@ -28,6 +84,8 @@ published: true
 *2024*
 
 This project involed writing a simulation in [MATLAB](https://www.mathworks.com/products/matlab.html) for Oregon State University's (OSU) Experimental Sounding Rocket Association (ESRA) Team. The simulation is used to gain understanding of how the **Blade Extending Apogee Variance System (BEAVS)** will affect the rocket's flight path. The simulation takes [OpenRocket](https://openrocket.info/) data export in conjunction with [OpenMotor](https://github.com/reilleya/openMotor) custom motors as a basis.
+
+<p align="center"><img src="/assets/BEAVS.png" alt="BEAVS" width="40%"><br><em>The physical BEAVS system</em></p>
 
 Objectives
 - Understand the total braking power of BEAVS given varying rocket designs
@@ -88,6 +146,8 @@ In high school, I became chronically involved with the [FIRST® Robotics Competi
 
 For the rest of this section, I'll talk through what I did each year, sharing my story. I'll then end with a more technical description of our 2019 robot *Scorpion*.
 
+<p align="center"><img src="/assets/PigmiceLogo.webp" alt="Pigmice Logo" width="40%"></p>
+
 **Freshman Year: Joining the Team**<br>
 I joined [our FRC team](https://www.pigmice.com/) as a freshman, eager to immerse myself in the world of engineering and robotics. This initial year provided a foundation in teamwork, basic mechanical concepts, and the excitement of competitive robotics. Our robot did adequately this year, but our team had a very laid-back approach to the competition.
 
@@ -97,19 +157,23 @@ In my sophomore year, I was appointed as the Build Lead. Under the mentorship of
 **Junior Year: Co-Leading as Manufacturing Captain**<br>
 My junior year marked a significant step forward as I was elected to co-lead as the Manufacturing Captain. This role intensified my responsibilities and honed my skills in organization, communication, and managing a team under stressful environments. The challenge this year required a milk crate-sized cube to be placed on a scale +8ft into the air. Our team decided on using an 'elevator' mechanism, but were split on two different methods. We decided to work on both solutions in parallel. This ended up being a valueable lesson in both team dynamics and engineering. Our hard work and improved processes paid off, as we advanced to the District Championships for the first time in many years. This achievement was a testament to our improved design, iteration, and testing methods. The new set of leadership, including myself, had taken a vastly different approach to the team and after tasting success, were eager to do even better next year.
 
-![Otis](/assets/Otis.jpg "Otis")
+<p align="center"><img src="/assets/OtisDCMP1.jpg" alt="Otis" width="80%"></p>
 
 **Senior Year: Team Captain**<br>
 In my senior year, I was honored to be elected as the Team Captain, co-leading the entire team. My focus on leadership, organization, and fostering effective communication among team members culminated in an exceptional season. We advanced to the World-level competition in Houston, TX, where we became finalists in the playoffs of our division. Our team’s journey ended only after a closely contested match with the eventual world champions.
 
-![Celebrating](/assets/PigmiceHouston.JPG "Celebrating getting to finals")
+<p align="center"><img src="/assets/PigmiceHouston.JPG" alt="Celebrating getting to finals" width="80%"></p>
 
 Throughout my journey with the FRC team, I developed a strong foundation in engineering principles, leadership, and teamwork. These experiences have significantly shaped my approach to problem-solving and project management, skills that I continue to apply in my ongoing engineering endeavors.
 
 **2019 Robot: Scorpion**<br>
-![Scorpion](/assets/scorpion.webp "Scorpion")
+<p align="center"><img src="/assets/scorpion.webp" alt="Scorpion" width="60%"></p>
 
-I want to talk about this robot in more detail as I am exceptionally proud of it and there's a lot of interesting systems under the hood.
+I want to talk about this robot in more detail as I am exceptionally proud of it and there's a lot of interesting systems under the hood. The challenge this year was to precicely place two wildly different game pieces in various places around the field. There was am inflatible playground ball, named 'cargo' and a plastic disk with a center hole and velcro named a 'hatch.' These game pieces had to be placed ranging between 1ft and 8ft off the ground.
+
+<p align="center"><img src="/assets/cargo.jpg" alt="Cargo" width="20%"><img src="/assets/hatch.png" alt="Hatch" width="20%"></p>
+
+There were several mechanisms that worked in tandem to achieve this.    ...
 
 <hr>
 ### [RingGame](https://github.com/DexterCarpenter/RingGame)
@@ -125,46 +189,6 @@ My goal was to make this as simple as possible, using just the NeoPixel and a bu
 
 <!-- Attempts at making a sidebar:
 
-<head>
-	<style>
-		.sidenav {
-		  width: 12%;
-		  min-width: 200px;
-		  position: fixed;
-		  z-index: 1;
-		  top: 10%;
-		  right: 90%;
-		  background: #eee;
-		  overflow-x: hidden;
-		  padding: 8px 0;
-		}
 
-		.sidenav a {
-		  padding: 6px 8px 6px 16px;
-		  text-decoration: none;
-		  font-size: 16px;
-		  color: #2196F3;
-		  display: block;
-		}
-
-		.sidenav a:hover {
-		  color: #064579;
-		}
-
-		@media screen and (max-height: 450px) {
-		  .sidenav {padding-top: 15px;}
-		  .sidenav a {font-size: 18px;}
-		}
-	</style>
-</head>
-
-<div class="sidenav">
-  <a href="#capstone-project"              >Capstone Project</a>
-  <a href="#beavs-simulation"              >BEAVS Simulation</a>
-  <a href="#esra-project-technical-report" >ESRA Project Technical Report</a>
-  <a href="#opens-lab-flodar-project-lead" >OPEnS Lab FloDar Project Lead</a>
-  <a href="#first-robotics-team-experience">FIRST Robotics Team Experience</a>
-  <a href="#ringgame"                      >RingGame</a>
-</div>
 
 -->
