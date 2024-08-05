@@ -15,19 +15,6 @@ published: true
 	<a href="#ringgame"                      >RingGame</a>
 </div>
 
-<!-- old TOC
-
-## Table of Contents
-- [Capstone Project](#capstone-project)
-- [BEAVS Simulation](#beavs-simulation)
-- [ESRA Project Technical Report](#esra-project-technical-report)
-- [OPEnS Lab FloDar Project Lead](#opens-lab-flodar-project-lead)
-- [FIRST Robotics Team Experience](#first-robotics-team-experience)
-- [RingGame](#ringgame)
-
-<br>
--->
-
 <!-- PROJECTS BEGIN HERE -->
 
 <hr>
@@ -143,9 +130,3 @@ This was a one-day project. Using an [Adafruit Neopixel ring (24)](https://www.a
 My goal was to make this as simple as possible, using just the NeoPixel and a button as the UI.
 
 <p align="center"><img src="/assets/RingGame.gif" alt="RingGame"></p>
-
-<!-- Attempts at making a sidebar:
-
-
-
--->
