@@ -7,7 +7,7 @@ permalink: /resume
 published: true
 ---
 
-[⇓ Download](/assets/pdfs/resumes/active/DexterCarpenterResume_active.pdf)
+<a href="/assets/pdfs/resumes/active/DexterCarpenterResume_active.pdf" download>↓ Download</a>
 
 <p align="center">
 	<embed src="/assets/pdfs/resumes/active/DexterCarpenterResume_active.pdf"
