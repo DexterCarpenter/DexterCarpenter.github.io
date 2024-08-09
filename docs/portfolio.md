@@ -5,8 +5,9 @@ permalink: /portfolio
 published: true
 ---
 
+<!-- SIDEBAR HTML -->
 <div class="sidenav">
-	<p>Contents</p>
+	<a href="#"><span class="navheader">Contents</span></a>
 	<a href="#capstone-project"              >Capstone Project</a>
 	<a href="#beavs-simulation"              >BEAVS Simulation</a>
 	<a href="#esra-project-technical-report" >ESRA Project Technical Report</a>
@@ -15,23 +16,77 @@ published: true
 	<a href="#ringgame"                      >RingGame</a>
 </div>
 
+<!-- PAGE DESCRIPTION -->
+
+*Here I go into (way too much) detail about projects I have been a part of or completed myself. This is the place where I get to talk as much as I like about what I like. It's not meant to be a short read or a quick summary. I try to keep things from being too excessive but, I'm not always successful. :)*
+
+*If you have any questions or want to learn more, I encourage you to contact me at [dextercarpenter1@gmail.com](mailto:dextercarpenter1@gmail.com).*
+
+<br>
+
 <!-- PROJECTS BEGIN HERE -->
 
 <hr>
-### Capstone Project
+# Capstone Project
 *2023 - 2024*
 
-...
+To earn an engineering degree at Oregon State University (OSU), every student must complete a Capstone Project toward the end of their education. The purpose is to give students an opportunity to work in their dicipline on a team and contribute to a project that emulates what one might experience in industry. The project I chose took me down a slightly different path than most, as I ended up co-leading an experimental sounding rocket team.
+
+<p align="center"><img src="/assets/ESRA_AIAA_logo_White.png" alt="ESRA_AIAA_logo" width="50%"></p>
+
+But first, a small bit of history. OSU has a very large [AIAA chapter](https://osuaiaa.com/) with over ten seperate teams doing rockets, planes, drones, and more. OSU has famously completed in and won the [Spaceport America Cup](https://www.soundingrocket.org/sa-cup-home.html) hosted by [ESRA](https://www.soundingrocket.org/) in [2014](https://www.soundingrocket.org/2014-irec.html) and [2016](https://www.soundingrocket.org/2016-irec.html). However, with the COVID-19 pandemic and the passing of [Dr. Nancy Squires](https://osuaiaa.com/squires) many teams, including OSU's ESRA team, were discontinued. Myself and a good friend of mine were approached by the OSU AIAA President to revive the team as both of us had immense leadership experience with [FIRST Robotics](#first-robotics-team-experience). My friend was appointed as the Team Lead and I was selected to be the Treasurer since that role needed to be filled while still putting me in a leadership position. It was also beneficial since the work we did on the team would count for our Capstone.
+
+<p align="center"><img src="/assets/MUESRAPicture.jpg" alt="MU_ESRA_Picture" width="80%"></p>
+
+We agreed, recruited roughly five undergraduate (non-Capstone) students in the Fall, got accepted to the 2024 competition, and secured ourselves funding from the [OSGC](https://spacegrant.oregonstate.edu/) [UTEAP](https://spacegrant.oregonstate.edu/undergraduate-team-experience-award-program) Grant. As I elaborate in [a later section](#esra-project-technical-report), I was the primary author for this grant as well as other technical documents. If you want to learn more about the grant, contact me, I don't have a section for it specifically.
+
+<p><img class="floatright" src="/assets/ESRA_logo.png" alt="ESRA_logo" width="30%">
+We made the decision in our application to compete in the 10,000ft Student Researched and Developed (SRAD) category. There are four categories. You can either aim for 10,000ft or 30,000ft. You're scored based on how closely you reach your target. Then you can either be an SRAD or a Commercial Off-The-Shelf (COTS) team. SRAD means you must create your own motor (propulsion system) and the freedom to put custom hardware elsewhere. In contrast, a COTS team must buy their motor from a commercial provider, and are slightly more limited as to what they could construct their rocket of. OSU has a history of mixing our own solid motors- in fact- OSU has one of the best-equipped motor mixing facilities in the US. While OSU has also previously competed in the 30k category, our team was brand new and very inexperienced. Thus the team made the decision to compete in the 10k SRAD category.
+</p>
+
+By Winter, we had recruited 3 additional Capstone students for a total of ~12 team members, and began designing our rocket. This term was painfully slow. The team was still getting to know one another and synchronous time commitments from everyone was a challenge. However, we were able to get through a majority of our design process. I want to go into detail about the rocket design, specifically the portions that I contributed most to. However, in order to keep this more digestable, I've given it it's own seperate page.
+
+# [Rocket Design Details →](/portfolio/rocket_design_details)
+
+<p align="center"><img src="/assets/RamkoersCutaway.png" alt="RamkoersCutaway" width="100%"></p>
+
+By the end of the term in April we had a good idea of our design but, no progress on manufacturing the rocket. This was quite concerning as it put a lot of things to accomplish in the Spring before the competition in mid-June. With the proof of launch requirement rapidly approaching, myself and a few others put in 80-hour weeks to get the rocket constructed for our first test launch on April 28th. With a bit of luck, we had an successful launch and recovered the rocket with some minor damage.
+
+<p align="center"><img src="/assets/BrothersLaunch480.gif" alt="BrothersLaunch" width="80%"></p>
+
+We sustained some damage during our recovery. This is a single-deperation, dual-deploy rocket. I talk more about what this is in the [Rocket Design Details](/portfolio/rocket_design_details) but simply, we have two parachutes. A drogue, that deploys at <span class="tooltip">apogee<span class="tooltiptext">The highest point in the development of the rocket</span></span>, and a main, that deploys once the rocket passes ~1,500ft on descent. Our main parachute failed to deploy as the shock cord became tanged in the ejection charge wires. This caused the rocket to come down faster than desired, and caused damage to the upper section of the body tube, just below the nosecone, shown below.
+
+<p align="center"><img src="/assets/BrothersDamage.jpg" alt="BrothersDamage" width="80%"></p>
+
+The solution was simple. Cut the cracked portion away. We cut about 14" off with only one small problem. Our rocket lost a lot of stability in doing so. Rocket stability can be simplified to the distance between the [center of pressure](https://en.wikipedia.org/wiki/Center_of_pressure_(fluid_mechanics)) (C<sub>p</sub>) and the [center of mass](https://en.wikipedia.org/wiki/Center_of_mass) (C<sub>g</sub>). A stable rocket has a center of pressure *below* the center of mass. [NASA](https://www.grc.nasa.gov/www/k-12/VirtualAero/BottleRocket/airplane/rktstab.html) has a convient graphic to help illustrate this.
+
+<p align="center"><a href="https://www.grc.nasa.gov/www/k-12/VirtualAero/BottleRocket/airplane/rktstab.html"><img src="/assets/rktstab.gif" alt="rktstab" width="80%"></a></p>
+
+The damage lowered our C<sub>g</sub> closer to our C<sub>p</sub>. To solve this issue, we had to either reduce the mass on the lower half of the rocket (not feasible) or lower our C<sub>p</sub>. Lowering the C<sub>p</sub> can be done by increasing the fin size. Since the fins were already cured onto the airframe by a very labor intensive and complicated process that I talk about in the [Rocket Design Details](/portfolio/rocket_design_details), it was not so simple to make the fins bigger. We had the idea of adding what we eventually called 'strakes,' some long and short fins that wouldn't be susceptable to [fin flutter](https://en.wikipedia.org/wiki/Aeroelasticity#Flutter), wouldn't require a carbon fiber layup, and wouldn't disrupt the flow over the original set of fins. In simulating the idea, we found that there were some geometries of the strakes that were very stable and very unstable. We realized we had to be very careful when choosing the geometry as to not pick one that would cause instability. An ideal course of action would have been to perform either [Computational Fluid Dynamics](https://en.wikipedia.org/wiki/Computational_fluid_dynamics) or an experiment in a wind tunnel with a scale model. Then, test our design on a sub-scale rocket. However, we didn't have time for any of these solutions. We talked to several professors at OSU and our mentors which gave enough insight to make the decision to proceed with our idea. 
+
+<p align="center"><img src="/assets/strakes.png" alt="strakes" width="80%"></p>
+
+Soon the competition arrived, our team drove from Corvallis, OR to Las Cruces, NM where we stayed for the week-long competition. After 3 days of poor weather conditions, some integration problems, and issues from the event organizers, we finally were able to get off the ground.
+
+<p align="center">
+	<img src="/assets/OnTheRail.jpg" alt="OnTheRail" height="330"> 
+	<img src="/assets/OffTheRail.jpg" alt="OffTheRail" height="330"> 
+	<img src="/assets/InFlight.jpg" alt="InFlight" height="330">
+</p>
+
+Unfortunately, our flight didn't go as well we hoped. Our custom motor casing failed mid-flight and our motor lost thrust prematurely. However, it became significantly worse when your ejection charges failed to seperate our rocket, sending our rocket down ballistic. This was a rookie mistake and easily avoidable. Granted, we were a rookie team and were impressed with ourselves for getting as far as we did. Myself and the few others who graduated from the team felt extremely accomplished as we had laid the foundation for the team to continue to operate in years to come. The team this year was untraditionally almost entirely non-Capstone students. Only 4 of the 12 members attending the competition were seniors. Traditionally, the team is comprised of almost exclusively Capstone seniors. However, my colleagues and I intentionally laid the groundwork to enable the team to govern themselves, something we belived to be very valuable. 
+
+<p align="center"><img src="/assets/LaunchRailShot.jpg" alt="LaunchRailShot" width="80%"></p>
 
 <hr>
-### [BEAVS Simulation](https://github.com/DexterCarpenter/BEAVS4-Simulation)
+# [BEAVS Simulation](https://github.com/DexterCarpenter/BEAVS4-Simulation)
 *2024*
 
-This project involed writing a simulation in [MATLAB](https://www.mathworks.com/products/matlab.html) for Oregon State University's (OSU) Experimental Sounding Rocket Association (ESRA) Team. The simulation is used to gain understanding of how the **Blade Extending Apogee Variance System (BEAVS)** will affect the rocket's flight path. The simulation takes [OpenRocket](https://openrocket.info/) data export in conjunction with [OpenMotor](https://github.com/reilleya/openMotor) custom motors as a basis.
+This project involed writing a simulation in [MATLAB](https://www.mathworks.com/products/matlab.html) for the [OSU ESRA Team](#capstone-project) (see above). The simulation is used to gain understanding of how the **Blade Extending Apogee Variance System (BEAVS)** will affect the rocket's flight path. The simulation takes [OpenRocket](https://openrocket.info/) data export in conjunction with [OpenMotor](https://github.com/reilleya/openMotor) custom motors as a basis. The project is hosted on my [GitHub](https://github.com/DexterCarpenter/BEAVS4-Simulation).
 
 <p align="center"><img src="/assets/BEAVS.png" alt="BEAVS" width="40%"><br><em>The physical BEAVS system</em></p>
 
-Objectives
+### Objectives
 - Understand the total braking power of BEAVS given varying rocket designs
 - Separation failure risk analysis
 - PID control simulation
@@ -52,7 +107,7 @@ Due to the difficulty of testing BEAVS, it was required that the MATLAB simulati
 <p align="center"><img src="/assets/PIDGraphic.png" alt="PIDGraphic"></p>
 
 <hr>
-### [ESRA Project Technical Report](https://www.dropbox.com/scl/fo/1esn53zry4i2fjv8t0i5m/ABTbk8A2A9bhiVj74qt7v-0?dl=0&e=1&preview=Team_68_Technical_Report_2024_Spaceport_America_Cup.pdf&rlkey=chkbse71359m5jrlwx5wczgy6&st=6go4n431)
+# [ESRA Project Technical Report](https://www.dropbox.com/scl/fo/1esn53zry4i2fjv8t0i5m/ABTbk8A2A9bhiVj74qt7v-0?dl=0&e=1&preview=Team_68_Technical_Report_2024_Spaceport_America_Cup.pdf&rlkey=chkbse71359m5jrlwx5wczgy6&st=6go4n431)
 *2024*
 
 As part of my work on [OSU ESRA](#capstone-project) (see above), I was the primary author of the Project Technical Report for our team. I orchestrated the entirety of the report, writing a prodominant portion and delegating the remainder of sections to my fellow team members. The report "overviews their project for the judging
@@ -64,26 +119,26 @@ Our team's Technical Report placed **29th** out of 121 teams, scoring **183.7** 
 	width="80%" height="600" type="application/pdf"></p>
 
 <hr>
-### [OPEnS Lab *FloDar* Project Lead](https://github.com/OPEnSLab-OSU/OPEnS-Lab-Home/wiki/FloDar)
+# [OPEnS Lab *FloDar* Project Lead](https://github.com/OPEnSLab-OSU/OPEnS-Lab-Home/wiki/FloDar)
 *Jan 2021 - Oct 2022*
 
 At Oregon State University’s [Openly Published Environmental Sensing Lab](https://open-sensing.org/) (OPEnS Lab), I contributed to the development and deployment of [FloDar](https://github.com/OPEnSLab-OSU/OPEnS-Lab-Home/wiki/FloDar), a low-cost sensing system designed to monitor groundwater discharge and its properties. This project, conducted in collaboration with the Oregon Department of Transportation and the Oregon State College of Forestry, addresses the need for quantitative data on groundwater removal systems, which are crucial for landslide mitigation and infrastructure safety.
 
 <p align="center"><img src="/assets/FloDar.png" alt="FloDar"></p>
 
-**Responsibilities and Contributions**<br>
-- **Maintaining GitHub Repository:** I ensured that our [GitHub repository](https://github.com/OPEnSLab-OSU/FloDar) was consistently updated with the latest documentation, code, schematics, and images. This was vital for open-source collaboration and maintaining transparency with stakeholders.
-- **Facilitating Communication:** I played a key role in fostering effective communication with stakeholders and lab management. This included regular updates, clarifying project goals, and ensuring that all team members were aligned with the project’s objectives.
-- **Meeting Preparation and Coordination:** I organized and prepared for group meetings, including drafting weekly reports, updating project timelines, and gathering relevant data. I also coordinated schedules for field deployments and build parties, ensuring smooth logistical operations.
-- **Project Management:** I maintained the project checklist and timeline, keeping track of milestones and deadlines. I went out of my way to do research and find a project management software to help myself stay organized. I was able to monitor tasks and update a Gantt Chart.
+## Responsibilities and Contributions
+- *Maintaining GitHub Repository:* I ensured that our [GitHub repository](https://github.com/OPEnSLab-OSU/FloDar) was consistently updated with the latest documentation, code, schematics, and images. This was vital for open-source collaboration and maintaining transparency with stakeholders.
+- *Facilitating Communication:* I played a key role in fostering effective communication with stakeholders and lab management. This included regular updates, clarifying project goals, and ensuring that all team members were aligned with the project’s objectives.
+- *Meeting Preparation and Coordination:* I organized and prepared for group meetings, including drafting weekly reports, updating project timelines, and gathering relevant data. I also coordinated schedules for field deployments and build parties, ensuring smooth logistical operations.
+- *Project Management:* I maintained the project checklist and timeline, keeping track of milestones and deadlines. I went out of my way to do research and find a project management software to help myself stay organized. I was able to monitor tasks and update a Gantt Chart.
 
-**Technical Achievements**<br>
+## Technical Achievements
 FloDar was successfully installed at three hillside locations, with plans for expansion. The system measures flow rate, turbidity, and temperature at specified intervals, capable of handling over 700L/min with an uncertainty of ±7L/min. This system provides critical data for understanding groundwater dynamics and improving the maintenance and operation of drainage systems.
 
 Through my work at OPEnS Lab, I gained valuable experience in project management, team coordination, and environmental sensing technology, all of which have deepened my understanding of engineering solutions for real-world problems.
 
 <hr>
-### FIRST Robotics Team Experience
+# FIRST Robotics Team Experience
 *2016 - 2019*
 
 In high school, I became chronically involved with the [FIRST® Robotics Competition](https://www.firstinspires.org/robotics/frc) (FRC) team. Each year FRC teams design, program, and build a robot from scratch and common set of rules to play in a themed head-to-head challenge. This was the beginning of my career in engineering and has taught me more about engineering and leadership than anything else. I still am friends with many of my teamates to this day. A few things that set our team aside from many others are being student lead, meaning the students were in charge of making the decisions and our mentors were a hands-off resource. We also had significantly less team members and funding, which provided an additional barrier to our success.
@@ -92,25 +147,25 @@ For the rest of this section, I'll talk through what I did each year, sharing my
 
 <p align="center"><img src="/assets/PigmiceLogo.webp" alt="Pigmice Logo" width="40%"></p>
 
-**Freshman Year: Joining the Team**<br>
+## Freshman Year: Joining the Team
 I joined [our FRC team](https://www.pigmice.com/) as a freshman, eager to immerse myself in the world of engineering and robotics. This initial year provided a foundation in teamwork, basic mechanical concepts, and the excitement of competitive robotics. Our robot did adequately this year, but our team had a very laid-back approach to the competition.
 
-**Sophomore Year: Build Lead**<br>
+## Sophomore Year: Build Lead
 In my sophomore year, I was appointed as the Build Lead. Under the mentorship of the Manufacturing Captain, I got my first glimpse into leadership and hands-on engineering. Our department was responsible for transforming designs from the Design Department into functional components for our robot. We began prototyping with wood and cardboard, allowing for quick iterations and testing. Once designs were more developed, we manufactured the final parts using aluminum. My primary contribution to the team was the 'Shooter.' This was a flywheel mechanism that launched wiffle balls roughly 15ft into the air to score them. Our team performed very poorly this year. At each of our competitions, we struggled to field a functional robot.
 
-**Junior Year: Co-Leading as Manufacturing Captain**<br>
+## Junior Year: Co-Leading as Manufacturing Captain
 My junior year marked a significant step forward as I was elected to co-lead as the Manufacturing Captain. This role intensified my responsibilities and honed my skills in organization, communication, and managing a team under stressful environments. The challenge this year required a milk crate-sized cube to be placed on a scale +8ft into the air. Our team decided on using an 'elevator' mechanism, but were split on two different methods. We decided to work on both solutions in parallel. This ended up being a valueable lesson in both team dynamics and engineering. Our hard work and improved processes paid off, as we advanced to the District Championships for the first time in many years. This achievement was a testament to our improved design, iteration, and testing methods. The new set of leadership, including myself, had taken a vastly different approach to the team and after tasting success, were eager to do even better next year.
 
 <p align="center"><img src="/assets/OtisDCMP1.jpg" alt="Otis" width="80%"></p>
 
-**Senior Year: Team Captain**<br>
+## Senior Year: Team Captain
 In my senior year, I was honored to be elected as the Team Captain, co-leading the entire team. My focus on leadership, organization, and fostering effective communication among team members culminated in an exceptional season. We advanced to the World-level competition in Houston, TX, where we became finalists in the playoffs of our division. Our team’s journey ended only after a closely contested match with the eventual world champions.
 
 <p align="center"><img src="/assets/PigmiceHouston.JPG" alt="Celebrating getting to finals" width="80%"></p>
 
 Throughout my journey with the FRC team, I developed a strong foundation in engineering principles, leadership, and teamwork. These experiences have significantly shaped my approach to problem-solving and project management, skills that I continue to apply in my ongoing engineering endeavors.
 
-**2019 Robot: Scorpion**<br>
+# [Scorpion Design Details →](/portfolio/scorpion_design_details)
 <p align="center"><img src="/assets/scorpion.webp" alt="Scorpion" width="60%"></p>
 
 I want to talk about this robot in more detail as I am exceptionally proud of it and there's a lot of interesting systems under the hood. The challenge this year was to precicely place two wildly different game pieces in various places around the field. There was am inflatible playground ball, named 'cargo' and a plastic disk with a center hole and velcro named a 'hatch.' These game pieces had to be placed ranging between 1ft and 8ft off the ground.
@@ -120,7 +175,7 @@ I want to talk about this robot in more detail as I am exceptionally proud of it
 There were several mechanisms that worked in tandem to achieve this.    ...
 
 <hr>
-### [RingGame](https://github.com/DexterCarpenter/RingGame)
+# [RingGame](https://github.com/DexterCarpenter/RingGame)
 *2020*
 
 An Arduino-based arcade style game. Press the button when the lights line up to proceed to a faster level. 
