@@ -20,7 +20,7 @@ published: true
 
 *Here I go into (way too much) detail about projects I have been a part of or completed myself. This is the place where I get to talk as much as I like about what I like. It's not meant to be a short read or a quick summary. I try to keep things from being too excessive but, I'm not always successful. :)*
 
-*If you have any questions or want to learn more, I encourage you to contact me at [dextercarpenter1@gmail.com](mailto:dextercarpenter1@gmail.com).*
+*If you have questions or want to learn more, please contact me at [dextercarpenter1@gmail.com](mailto:dextercarpenter1@gmail.com).*
 
 <br>
 
