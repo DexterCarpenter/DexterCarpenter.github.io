@@ -3,7 +3,9 @@ layout: page
 title: "Scorpion Design Details"
 permalink: /portfolio/scorpion_design_details
 exclude: true
-published: false
+published: true
+redirect_to:
+  - /unpublished
 ---
 
 <!-- Scorpion Design Details -->
