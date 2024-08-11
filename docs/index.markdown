@@ -13,7 +13,7 @@ I am a recent graduate from Oregon State University with a degree in Mechanical 
 
 Thank you for visiting!
 
-<p align="center"><img src="/assets/CirclePfP_Forward_Large.png" alt="pfp" width="400" title="credit @gabetzeo on instagram"/></p>
+<p align="center"><img src="/assets/images/CirclePfP_Forward_Large.png" alt="pfp" width="400" title="credit @gabetzeo on instagram"/></p>
 
 <br>
 
