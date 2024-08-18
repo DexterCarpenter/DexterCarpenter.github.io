@@ -22,5 +22,3 @@ Thank you for visiting!
 Hosted by [GitHub Pages](https://pages.github.com/)
 <br>
 Powered by [Jekyll](https://jekyllrb.com/) using the [Minima](https://github.com/jekyll/minima) theme
-<br>
-Credit to [Chat-GPT](https://chatgpt.com/) for helping me write some portions
