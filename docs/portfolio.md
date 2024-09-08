@@ -93,6 +93,12 @@ Unfortunately, our flight didn't go as well we hoped. Our custom motor casing fa
 
 <p align="center"><img src="/assets/images/LaunchRailShot.jpg" alt="LaunchRailShot" width="80%"></p>
 
+Here is a fun recap video made by one of my teammates, [Cody Eutsler](https://www.linkedin.com/in/cody-eutsler-62b792299/).
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e0LpQ6RYETU?si=mVS7pFPLhDm0PAza" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+
 <hr>
 # [BEAVS Simulation](https://github.com/DexterCarpenter/BEAVS4-Simulation)
 *2024*
