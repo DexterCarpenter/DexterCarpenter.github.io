@@ -11,6 +11,7 @@ published: true
 	<a href="#capstone-project"              >Capstone Project</a>
 	<a href="#beavs-simulation"              >BEAVS Simulation</a>
 	<a href="#esra-project-technical-report" >ESRA Project Technical Report</a>
+	<a href="#twincat-conveyor-problem"      >TwinCAT Conveyor Problem</a>
 	<a href="#opens-lab-flodar-project-lead" >OPEnS Lab FloDar Project Lead</a>
 	<a href="#first-robotics-team-experience">FIRST Robotics Team Experience</a>
 	<a href="#ringgame"                      >RingGame</a>
@@ -138,6 +139,24 @@ Our team's Technical Report placed **29th** out of 121 teams, scoring **183.7** 
 
 <p align="center"><embed src="/assets/pdfs/Team_68_Project_Technical_Report_to_the_2024_Spaceport_America_Cup.pdf"
 	width="80%" height="600" type="application/pdf"></p>
+
+<hr>
+# [TwinCAT Conveyor Problem](https://youtu.be/GMHNJdMj_Cc)
+*2024*
+
+This was a 2-day project in which I learned [Beckhoff's TwinCAT 3 XAE](https://www.beckhoff.com/en-us/support/download-finder/search-result/?download_group=97028248) and created a hypothetical solution to a problem for a job interview. I had no prior experience with Structured Text or Pascal prior to this!
+
+### Objectives
+- We have an conveyor with 4 buttons Start Stop AND E-Stop AND Reset.
+- When system starts it shouldnt do anything until reset.
+- Starting it should speed up to a RUN_SPEED, over ACCEL_TIME and maintain.
+- If stop is Pressed speed should decrease to 0 over DECCEL_TIME.
+- If E_Stop is Pressed speed should go immediately to 0.
+- Before resuming operation after E-Stop, the system should require a reset.
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GMHNJdMj_Cc?si=u64iGnNKQQkcnuwt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
 
 <hr>
 # [OPEnS Lab *FloDar* Project Lead](https://github.com/OPEnSLab-OSU/OPEnS-Lab-Home/wiki/FloDar)
