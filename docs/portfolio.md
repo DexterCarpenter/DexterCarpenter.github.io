@@ -141,7 +141,7 @@ Our team's Technical Report placed **29th** out of 121 teams, scoring **183.7** 
 	width="80%" height="600" type="application/pdf"></p>
 
 <hr>
-# [TwinCAT Conveyor Problem](https://youtu.be/GMHNJdMj_Cc)
+# [TwinCAT Conveyor Problem](https://github.com/DexterCarpenter/TwinCATConveyorProblem)
 *2024*
 
 This was a 2-day project in which I learned [Beckhoff's TwinCAT 3 XAE](https://www.beckhoff.com/en-us/support/download-finder/search-result/?download_group=97028248) and created a hypothetical solution to a problem for a job interview. I had no prior experience with Structured Text or Pascal prior to this!
