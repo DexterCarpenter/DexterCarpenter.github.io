@@ -7,7 +7,7 @@ published: true
 
 <!-- SIDEBAR HTML -->
 <div class="sidenav">
-	<a href="#"><span class="navheader">Contents</span></a>
+	<a href="#" class="navheader">Contents</a>
 	<a href="#capstone-project"              >Capstone Project</a>
 	<a href="#beavs-simulation"              >BEAVS Simulation</a>
 	<a href="#esra-project-technical-report" >ESRA Project Technical Report</a>
