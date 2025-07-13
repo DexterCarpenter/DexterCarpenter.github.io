@@ -11,6 +11,7 @@ published: true
 	<a href="#capstone-project"              >Capstone Project</a>
 	<a href="#beavs-simulation"              >BEAVS Simulation</a>
 	<a href="#esra-project-technical-report" >ESRA Project Technical Report</a>
+	<a href="#public-obsidian-notes-repository" >Public Obsidian Notes Repository</a>
 	<a href="#twincat-conveyor-problem"      >TwinCAT Conveyor Problem</a>
 	<a href="#opens-lab-flodar-project-lead" >OPEnS Lab FloDar Project Lead</a>
 	<a href="#first-robotics-team-experience">FIRST Robotics Team Experience</a>
@@ -139,6 +140,16 @@ Our team's Technical Report placed **29th** out of 121 teams, scoring **183.7** 
 
 <p align="center"><embed src="/assets/pdfs/Team_68_Project_Technical_Report_to_the_2024_Spaceport_America_Cup.pdf"
 	width="80%" height="600" type="application/pdf"></p>
+
+<hr>
+# [Public Obsidian Notes Repository](https://github.com/DexterCarpenter/ObsidianGitVault.Public)
+*2025*
+
+I started using [Obsidian](https://obsidian.md/) for taking both personal and work-related notes. I began to really enjoy it, especially the integration with git and auto-committing. However, since I use it for work the repository needs to be private as to not be in violation of any potential NDAs. This quickly became irritating as I found myself frequently wanting to share notes I take with coworkers and friends. Often times I'd find a dumb fix to an issue and I like to document briefly in a note what I did to get things to work- both for my future self and anyone else who comes across the same problem.
+
+So, I did a little research and found that [GitHub Actions](https://github.com/features/actions) is fully capable of creating an automation that splits a specific section of my private repository and commits it to a public-facing repository without exposing anything extraneous. With a day's work of development I now have a publicly-facing repository that automatically updates with notes I select as public.
+
+You can read the documentation on how to set it up for yourself in the [README of my Public Repo](https://github.com/DexterCarpenter/ObsidianGitVault.Public).
 
 <hr>
 # [TwinCAT Conveyor Problem](https://github.com/DexterCarpenter/TwinCATConveyorProblem)
