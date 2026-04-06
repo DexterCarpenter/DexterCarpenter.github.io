@@ -7,13 +7,21 @@ title: About Me
 published: true
 ---
 
+<p align="center"><img src="/assets/images/CirclePfP_Forward_Large.png" alt="pfp" width="300" title="credit @gabetzeo on instagram"/></p>
+
 Hello!
 
-I am a Mechatronics Engineer at [Timberline Automation and Control Co.](https://tac.io), where I design and implement advanced control systems for automated test equipment and industrial applications. My passion for engineering began in high school with my [FIRST Robotics Experience](/portfolio#first-robotics-team-experience), where I was an active member and eventually the team captain. This early exposure to hands-on problem-solving and teamwork laid the foundation for my academic and professional journey. After earning my Mechanical Engineering degree from Oregon State University, I continued to build on that foundation through multidisciplinary work combining mechanical design, electrical systems, and software development. At Oregon State, I led a rocketry team for my [Capstone Project](/portfolio#capstone-project), further developing my technical and leadership skills. I invite you to explore my [Portfolio](/portfolio) to see the diverse projects I’ve worked on and learn more about my experience in automation, controls, and mechatronic system design.
+I am a multidisciplinary engineer with a background in mechanical engineering, most recently working at [Timberline Automation and Control Co.](https://tac.io), where I designed and implemented advanced control systems for automated test equipment and industrial applications. My work there focused on developing complete automation systems that integrate mechanical design, electrical hardware, and software control.
+
+My passion for engineering began in high school with my [FIRST Robotics Experience](/portfolio#first-robotics-team-experience), where I was an active member and eventually the team captain. This early exposure to hands-on problem-solving and teamwork laid the foundation for my academic and professional journey.
+
+After earning my Mechanical Engineering degree from Oregon State University, I continued to build on that foundation through multidisciplinary work combining mechanical design, electrical systems, and software development. At Oregon State, I led a rocketry team for my [Capstone Project](/portfolio#capstone-project), further developing my technical and leadership skills.
+
+I invite you to explore my [Portfolio](/portfolio) to see the diverse projects I’ve worked on and learn more about my experience in automation, controls, and mechatronic system design.
 
 Thank you for visiting!
 
-<p align="center"><img src="/assets/images/CirclePfP_Forward_Large.png" alt="pfp" width="400" title="credit @gabetzeo on instagram"/></p>
+
 
 <br>
 
