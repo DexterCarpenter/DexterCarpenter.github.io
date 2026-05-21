@@ -16,6 +16,7 @@ published: true
 	<a href="#opens-lab-flodar-project-lead" >OPEnS Lab FloDar Project Lead</a>
 	<a href="#first-robotics-team-experience">FIRST Robotics Team Experience</a>
 	<a href="#ringgame"                      >RingGame</a>
+	<a href="#chessdex"                      >ChessDex</a>
 </div>
 
 <!-- PAGE DESCRIPTION -->
@@ -231,3 +232,9 @@ This was a one-day project. Using an [Adafruit Neopixel ring (24)](https://www.a
 My goal was to make this as simple as possible, using just the NeoPixel and a button as the UI.
 
 <p align="center"><img src="/assets/images/RingGame.gif" alt="RingGame"></p>
+
+<hr>
+# ChessDex
+*2024 – present*
+
+A chess engine and bitboard library written from scratch in Python, with a browser play UI. You can [play against the engine live](/chessdex/) on this site or browse the [ChessDex repository](https://github.com/DexterCarpenter/ChessDex).

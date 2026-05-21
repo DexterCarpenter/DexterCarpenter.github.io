@@ -28,6 +28,12 @@ url: "https://dextercarpenter.github.io/" # the base hostname & protocol for you
 github_username:  DexterCarpenter
 linkedin_username: DexterCarpenter1
 
+header_pages:
+  - index.markdown
+  - portfolio.md
+  - chessdex.md
+  - resume.md
+
 # Build settings
 theme: minima
 plugins:
