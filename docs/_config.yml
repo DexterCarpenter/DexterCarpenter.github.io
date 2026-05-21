@@ -31,7 +31,6 @@ linkedin_username: DexterCarpenter1
 header_pages:
   - index.markdown
   - portfolio.md
-  - chessdex.md
   - resume.md
 
 # Build settings

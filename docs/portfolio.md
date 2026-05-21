@@ -8,15 +8,15 @@ published: true
 <!-- SIDEBAR HTML -->
 <div class="sidenav">
 	<a href="#" class="navheader">Contents</a>
-	<a href="#capstone-project"              >Capstone Project</a>
-	<a href="#beavs-simulation"              >BEAVS Simulation</a>
-	<a href="#esra-project-technical-report" >ESRA Project Technical Report</a>
+	<a href="#capstone-project"                 >Capstone Project</a>
+	<a href="#beavs-simulation"                 >BEAVS Simulation</a>
+	<a href="#esra-project-technical-report"    >ESRA Project Technical Report</a>
+	<a href="#chessdex"                         >ChessDex</a>
 	<a href="#public-obsidian-notes-repository" >Public Obsidian Notes Repository</a>
-	<a href="#twincat-conveyor-problem"      >TwinCAT Conveyor Problem</a>
-	<a href="#opens-lab-flodar-project-lead" >OPEnS Lab FloDar Project Lead</a>
-	<a href="#first-robotics-team-experience">FIRST Robotics Team Experience</a>
-	<a href="#ringgame"                      >RingGame</a>
-	<a href="#chessdex"                      >ChessDex</a>
+	<a href="#twincat-conveyor-problem"         >TwinCAT Conveyor Problem</a>
+	<a href="#opens-lab-flodar-project-lead"    >OPEnS Lab FloDar Project Lead</a>
+	<a href="#first-robotics-team-experience"   >FIRST Robotics Team Experience</a>
+	<a href="#ringgame"                         >RingGame</a>
 </div>
 
 <!-- PAGE DESCRIPTION -->
@@ -141,6 +141,16 @@ Our team's Technical Report placed **29th** out of 121 teams, scoring **183.7** 
 
 <p align="center"><embed src="/assets/pdfs/Team_68_Project_Technical_Report_to_the_2024_Spaceport_America_Cup.pdf"
 	width="80%" height="600" type="application/pdf"></p>
+
+<hr>
+# [ChessDex](/chessdex)
+*May 2026*
+
+Play against a chess engine I wrote from scratch [here](/chessdex)!
+
+ChessDex is a chess engine written entirely in Python. I developed a custom [board reprsentation](https://www.chessprogramming.org/Board_Representation) and [evaluation](https://www.chessprogramming.org/Evaluation) to power the engine. The application is deployed on [render.com](https://render.com/) using a container built directly from the main branch of [github.com/DexterCarpenter/ChessDex](https://github.com/DexterCarpenter/ChessDex).
+
+
 
 <hr>
 # [Public Obsidian Notes Repository](https://github.com/DexterCarpenter/ObsidianGitVault.Public)
