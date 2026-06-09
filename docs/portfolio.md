@@ -242,9 +242,3 @@ This was a one-day project. Using an [Adafruit Neopixel ring (24)](https://www.a
 My goal was to make this as simple as possible, using just the NeoPixel and a button as the UI.
 
 <p align="center"><img src="/assets/images/RingGame.gif" alt="RingGame"></p>
-
-<hr>
-# ChessDex
-*2024 – present*
-
-A chess engine and bitboard library written from scratch in Python, with a browser play UI. You can [play against the engine live](/chessdex/) on this site or browse the [ChessDex repository](https://github.com/DexterCarpenter/ChessDex).
